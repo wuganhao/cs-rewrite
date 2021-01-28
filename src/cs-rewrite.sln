@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cs-rewrite", "cs-rewrite\cs-rewrite.csproj", "{2BAC90E3-D8E7-49D6-AB75-36CBA027E130}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLineParser", "commandline\CommandLineParser\CommandLineParser.csproj", "{F2F9ED07-264D-41AE-94D5-34590FDAABC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BAC90E3-D8E7-49D6-AB75-36CBA027E130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAC90E3-D8E7-49D6-AB75-36CBA027E130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAC90E3-D8E7-49D6-AB75-36CBA027E130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAC90E3-D8E7-49D6-AB75-36CBA027E130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F9ED07-264D-41AE-94D5-34590FDAABC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F9ED07-264D-41AE-94D5-34590FDAABC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F9ED07-264D-41AE-94D5-34590FDAABC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F9ED07-264D-41AE-94D5-34590FDAABC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {610C8E9C-2E80-43BE-98CF-DC76527B5FFE}
+	EndGlobalSection
+EndGlobal
