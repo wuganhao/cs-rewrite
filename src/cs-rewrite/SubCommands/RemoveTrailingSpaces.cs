@@ -8,7 +8,7 @@ namespace WuGanhao.CSharpRewrite.SubCommands {
     public class RemoveTrailingSpaces : RewriteSubCommand {
 
         protected override IEnumerable<string> FindFiles(string path) {
-            string pattern = this.Parent.Pattern ?? "*.cs;*.txt;*.csproj;*.sln;*.xml;*.restext;*.resx";
+            string pattern = this.Parent.Pattern ?? "*.cs;*.txt;*.csproj;*.sln;*.xml;*.restext;*.resx;*.nuspec";
             string[] patterns = pattern.Split(new char[] { ';' }, StringSplitOptions.RemoveEmptyEntries);
             return this.FindFiles(path, patterns);
         }
