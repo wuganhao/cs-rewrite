@@ -4,6 +4,13 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>WuGanhao.CSharpRewrite</RootNamespace>
+    <IsPackable>True</IsPackable>
+    <Authors>Wu, Ganhao&lt;wuganhao@hotmail.com&gt;</Authors>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/wuganhao/cs-rewrite</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackAsTool>True</PackAsTool>
+    <TrimmerRootAssembly>True</TrimmerRootAssembly>
   </PropertyGroup>
 
   <ItemGroup>
