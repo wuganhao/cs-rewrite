@@ -15,7 +15,7 @@ namespace WuGanhao.CSharpRewrite {
         public string Pattern { get; set; }
 
         [CommandOption("exclude-directories", "e", "Directories excluded for processing, Seperated by comma")]
-        public string ExcludeDirectories { get; set; } = "packages;obj;bin";
+        public string ExcludeDirectories { get; set; } = "packages;obj;bin;.git;.svn;.cvs;.hg";
 
         [CommandSwitch("interactive", "i", "Allow command interaction")]
         public bool Interactive { get; set; }
